@@ -1,0 +1,27 @@
+.styling{
+height: 530px;
+width: 650px;
+margin-left: 20%;
+}
+
+#off{
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+}
+
+#on{
+    height: 40px;
+    width: 70px;
+    font-size: 20px;
+}
+
+#btn{
+    height: 60px;
+    width: 400px;
+    margin-left: 43%;
+}
+
+body{
+    background-color: black;
+}
