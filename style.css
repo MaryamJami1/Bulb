@@ -1,7 +1,7 @@
 .styling{
 height: 500px;
 width: 650px;
-margin-left: 23%;
+margin-left: 290px;
 }
 
 #off{
@@ -18,8 +18,8 @@ margin-left: 23%;
 
 #btn{
     height: 60px;
-    width: 400px;
-    margin-left: 44%;
+    width: 200px;
+    margin-left: 550px;
 }
 
 
@@ -31,6 +31,7 @@ margin-left: 23%;
 .backgroundOn{
     background-image: url(yellow-back.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
 
 }
 
@@ -47,16 +48,16 @@ margin-left: 23%;
 
 @media screen and (max-width: 480px) {
     .styling {
-        height: 400px;
-        width: 450px;
-        margin-left: 5%;
+        height: 380px;
+        width: 250px;
+        margin-left: 20px;
        
     }
 
     #btn {
         height: 40px;
-        width: 250px;
-        margin-left: 180px;
+        width: 150px;
+        margin-left: 90px;
     }
 
     #off, #on {
@@ -64,6 +65,14 @@ margin-left: 23%;
         width: 50px;
         font-size: 16px;
     }
+
+
+    
+
+.backgroundOn{
+background-position: center;
+}
+
 }
 
 
@@ -72,15 +81,15 @@ margin-left: 23%;
 @media screen and (max-width: 300px) {
     .styling {
         height: 350px;
-        width: 300px;
-        margin-left: 70px;
+        width: 200px;
+        margin-left: 25px;
        
     }
 
     #btn {
         height: 40px;
-        width: 250px;
-        margin-left: 160px;
+        width: 150px;
+        margin-left: 70px;
     }
 
     #off, #on {
@@ -90,20 +99,10 @@ margin-left: 23%;
     }
 
 
-
-
     
 
 .backgroundOn{
-    background-image: url(yellow-back.jpg);
-    background-size: cover;
-
-}
-
-.backgroundOf{
-    background-color: black;
-}
-
+    background-position: center;}
 
 }
 
