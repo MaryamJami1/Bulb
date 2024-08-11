@@ -79,12 +79,12 @@ background-position: center;
 
 
 @media screen and (max-width: 300px) {
-    .styling {
+    /* .styling {
         height: 350px;
         width: 200px;
         margin-left: 25px;
        
-    }
+    } */
 
     #btn {
         height: 40px;
