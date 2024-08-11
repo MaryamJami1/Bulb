@@ -82,7 +82,7 @@ background-position: center;
     .styling {
         height: 350px;
         width: 200px;
-        margin-left: 75px;
+        margin-left: 82px;
        
     }
 
@@ -93,8 +93,8 @@ background-position: center;
     }
 
     #off, #on {
-        height: 30px;
-        width: 50px;
+        height: 40px;
+        width: 70px;
         font-size: 16px;
     }
 
