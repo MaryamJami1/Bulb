@@ -44,18 +44,19 @@ margin-left: 23%;
 
 
 
+
 @media screen and (max-width: 480px) {
     .styling {
-        height: 350px;
-        width: 400px;
-        margin-left: 0%;
+        height: 400px;
+        width: 450px;
+        margin-left: 5%;
        
     }
 
     #btn {
         height: 40px;
         width: 250px;
-        margin-left: 0%;
+        margin-left: 180px;
     }
 
     #off, #on {
@@ -64,3 +65,45 @@ margin-left: 23%;
         font-size: 16px;
     }
 }
+
+
+
+
+@media screen and (max-width: 300px) {
+    .styling {
+        height: 350px;
+        width: 300px;
+        margin-left: 70px;
+       
+    }
+
+    #btn {
+        height: 40px;
+        width: 250px;
+        margin-left: 160px;
+    }
+
+    #off, #on {
+        height: 30px;
+        width: 50px;
+        font-size: 16px;
+    }
+
+
+
+
+    
+
+.backgroundOn{
+    background-image: url(yellow-back.jpg);
+    background-size: cover;
+
+}
+
+.backgroundOf{
+    background-color: black;
+}
+
+
+}
+
