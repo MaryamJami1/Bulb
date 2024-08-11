@@ -1,7 +1,7 @@
 .styling{
-height: 530px;
+height: 500px;
 width: 650px;
-margin-left: 20%;
+margin-left: 23%;
 }
 
 #off{
@@ -19,9 +19,48 @@ margin-left: 20%;
 #btn{
     height: 60px;
     width: 400px;
-    margin-left: 43%;
+    margin-left: 44%;
 }
 
-body{
+
+#body{
     background-color: black;
+}
+
+
+.backgroundOn{
+    background-image: url(yellow-back.jpg);
+    background-size: cover;
+
+}
+
+.backgroundOf{
+    background-color: black;
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 480px) {
+    .styling {
+        height: 350px;
+        width: 400px;
+        margin-left: 0%;
+       
+    }
+
+    #btn {
+        height: 40px;
+        width: 250px;
+        margin-left: 0%;
+    }
+
+    #off, #on {
+        height: 30px;
+        width: 50px;
+        font-size: 16px;
+    }
 }
